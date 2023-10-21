@@ -56,6 +56,7 @@ const Login = () => {
       localStorage.setItem("userInfo", JSON.stringify(data));
       setLoading(false);
       navigate("/chats");
+      window.location.reload();   // hack to deal with the relocation bug in react-router-dom
     } catch (error) {
       toast({
         title: "Error Occured!",
