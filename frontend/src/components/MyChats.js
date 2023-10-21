@@ -25,7 +25,7 @@ const MyChats = ({ fetchAgain }) => {
         },
       };
 
-      const { data } = await axios.get("https://talkative-chat-application.onrender.com/api/chat", config);
+      const { data } = await axios.get("https://shinkai-chat.onrender.com/api/chat", config);
       setChats(data);
     } catch (error) {
       toast({

@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "https://talkative-chat-application.onrender.com/api/user",
+        "https://shinkai-chat.onrender.com/api/user",
         {
           name,
           email,

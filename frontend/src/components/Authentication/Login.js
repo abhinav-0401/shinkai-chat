@@ -40,7 +40,7 @@ const Login = () => {
       };
 
       const { data } = await axios.post(
-        "https://talkative-chat-application.onrender.com/api/user/login",
+        "https://shinkai-chat.onrender.com/api/user/login",
         { email, password },
         config
       );
