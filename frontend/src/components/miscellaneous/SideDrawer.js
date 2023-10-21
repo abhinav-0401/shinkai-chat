@@ -80,6 +80,7 @@ function SideDrawer() {
       };
 
       const { data } = await axios.get(`https://shinkai-chat.onrender.com/api/user?search=${search}`, config);
+      console.log("search query data: ", data);
 
       setLoading(false);
       setSearchResult(data);
