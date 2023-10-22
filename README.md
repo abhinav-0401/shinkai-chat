@@ -1,6 +1,6 @@
 # SHINKAI - The Messaging App that doesn't get in your way
 
-In this hyper-social medial driven world, with apps competing for their share of your mind's attention, dopamine and your time, **Shinkai** is a messaging app focused on being as **calming, minimalist and as easy-to-use** as possible while still providing all the functional requirements:
+In this hyper-social media driven world, with apps competing for their share of your mind's attention, dopamine and your time, **Shinkai** is a messaging app focused on being as **calming, minimalist and as easy-to-use** as possible while still providing all the functional requirements:
 
 1. **User Registration and Authentication**: Shinkai implements this using JWT
 2. **One on One messaging**: Shinkai uses Socket.io for user to user messaging
